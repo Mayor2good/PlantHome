@@ -1,0 +1,334 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: cursive;
+}
+
+/* Utilities */
+span {
+  color: green;
+}
+.l-heading {
+  font-size: 3rem;
+}
+
+ button {
+   margin-top: 1rem;
+   font-size: large;
+   padding: 1rem;
+   border-radius: 10px;
+   background: rgb(34, 59, 34);
+   color: white;
+ }
+
+ button:hover {
+   color: green;
+ }
+
+ .submit:hover{
+   background: whitesmoke;
+ }
+
+
+
+/* Navbar */
+
+#page-1 {
+  height: auto;
+  width: auto;
+  background: lightsalmon;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  padding: 1.4rem;
+   font-size: 1.5rem;  
+}
+
+.logo-link ul {
+  font-family: cursive;
+  display: flex;
+}
+
+.logo-link ul li {
+  list-style: none;
+  padding: 2rem;
+}
+
+ul li:hover {
+ color: darkgreen;
+}
+
+/* Showcase-a */
+
+
+.showcase-content-1 {
+  width: 100%;
+  max-width: 50%;
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.showcase-content-1-img {
+  background:url(./img/plant\ 1.jpg) no-repeat no-repeat center center/cover;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 50%;
+  height: 70vh ;
+  margin: 1rem;
+}
+
+#showcase-a {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#grid-1 {
+  height: 100vh;
+}
+
+#collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.no {
+  padding-top: 1rem;
+  padding-left: 8rem;
+}
+
+.pic-1 {
+  background: url(./img/plant\ 2.jpg) no-repeat no-repeat center center/cover ;
+  width: auto ;
+  height: 70vh;
+  
+}
+
+.pic-2 {
+  background: url(./img/plant\ 3.jpg) no-repeat no-repeat center center/cover ;
+  width:100% ;
+  height: 70vh;
+  
+}
+
+.pic-3 {
+  background: url(./img/plant\ 4.jpg) no-repeat no-repeat center center/cover ;
+  width:100% ;
+  height: 70vh;
+  
+}
+
+.pic-4 {
+  background: url(./img/plant\ 5.jpg) no-repeat no-repeat center center/cover ;
+  width:100% ;
+  height: 70vh;
+  
+}
+.pic-5 {
+  background: url(./img/plant\ 6.jpg) no-repeat no-repeat center center/cover ;
+  width:100% ;
+  height: 70vh;
+  
+}
+.pic-6 {
+  background: url(./img/plant\ 7.jpg) no-repeat no-repeat center center/cover ;
+  width:100% ;
+  height: 70vh;
+  
+}
+
+
+
+.pic-desc {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Page 2  */
+
+#page-2 {
+  height: 100vh;
+  background: lightsalmon;
+}
+
+
+/* Showcase-b */
+
+
+.showcase-content-2{
+  max-width: 50%;
+  margin: 5rem;
+  margin-top: 4rem;
+}
+
+.showcase-content-2-img {
+  background:url(./img/plant\ 13.jpg) no-repeat no-repeat center center/cover;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 50%;
+  height: 70vh ;
+  margin: 4rem;
+}
+
+#showcase-b{
+  display: flex;
+  justify-content: space-evenly;
+  background: darksalmon;
+  margin-top: 1rem;
+}
+
+#join {
+  background: rgb(34, 59, 34);
+  height: 50vh;
+  margin-top: 4rem;
+  color: aliceblue;
+}
+
+.join-content {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  max-width: 70%;
+  
+}
+
+.text{
+  text-align: center;
+  
+  
+}
+textarea {
+  border-radius: 1rem;
+}
+
+
+
+/* Page-3  */
+
+#page-3 {
+  height: 100vh;
+}
+
+.page-pic-1 {
+  background:url(./img/plant\ 16.jpg) no-repeat no-repeat center center/cover;
+  /* border-radius: 10px; */
+  width: 100%;
+  height: 100%;
+}
+
+.page-pic-2 {
+  background:url(./img/plant\ 9.jpg) no-repeat no-repeat center center/cover;
+  /* border-radius: 10px;/ */
+  width:65vh ;
+  height: 52vh;
+}
+
+.page-pic-3 {
+  background:url(./img/plant\ 10.jpg) no-repeat no-repeat center center/cover;
+  /* border-radius: 10px; */
+  width: 65vh;
+  height: 52vh;
+}
+
+.page-pic-4 {
+  background:url(./img/plant\ 14.jpg) no-repeat no-repeat center center/cover;
+  /* border-radius: 10px; */
+  width: 65vh;
+  height: 52vh;
+}
+
+.page-pic-5 {
+  background:url(./img/plant\ 15.jpg) no-repeat no-repeat center center/cover;
+  /* border-radius: 10px; */
+  width: 65vh;
+  height:52vh;
+}
+
+
+#page-3 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    grid-gap:1rem;
+    margin: 1rem;
+}
+
+.page-pic-1 {
+      grid-column-start:1 ;
+      grid-column-end: 2;
+      grid-row-start:1 ;
+      grid-row-end: 5;
+}
+
+/* footer */
+  #footer {
+    height: 55vh;
+    background: darksalmon;
+  }
+
+  .last-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .last-1 {
+    align-self: center;
+    justify-self: center;
+    padding-top: 8rem;
+  }
+
+  .last-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 4rem;
+    
+  }
+
+  .last-2 a {
+    text-decoration: none;
+    color: darkslategrey;
+    padding-bottom: 2rem;
+  }
+
+  .last-2 a:hover{
+    color: darkgreen;
+  }
+
+  .copy {
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  /* Other Pages in the site */
+  
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea{
+  height: 200px;
+}
